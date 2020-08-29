@@ -1,11 +1,13 @@
 #[macro_use]
 extern crate lazy_static;
 
-mod math;
-mod lcg;
-mod chunk_random;
-mod java_random;
-mod population_reverser;
+extern crate java_random_lcg;
+use java_random_lcg::*;
+
+pub mod math;
+pub mod chunk_random;
+pub mod java_random;
+pub mod population_reverser;
 
 #[cfg(test)]
 mod tests {

@@ -1,11 +1,12 @@
 [package]
-name = "population_reverser"
+name = "reverser"
 version = "0.1.0"
 authors = ["v31l-sys"]
 edition = "2018"
 
 [dependencies]
 lazy_static = "1.4.0"
+java_random_lcg = { git = "https://github.com/v31l-sys/java-random-lcg-rs" }
 
 [profile.dev]
 opt-level = 1

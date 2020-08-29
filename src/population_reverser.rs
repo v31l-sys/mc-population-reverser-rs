@@ -3,7 +3,7 @@
 
 /// Utility module for performing population seed -> world seed, takes a couple of milliseconds or less.
 pub mod population_seed_utils {
-    use crate::lcg::*;
+    use java_random_lcg::lcg::*;
     use std::collections::HashSet;
     use random::chunk_random::*;
     use crate::math::*;

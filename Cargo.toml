@@ -1,5 +1,5 @@
 [package]
-name = "mc-population-reverser-rs"
+name = "population_reverser"
 version = "0.1.0"
 authors = ["v31l-sys"]
 edition = "2018"

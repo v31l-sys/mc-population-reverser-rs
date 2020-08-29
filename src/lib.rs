@@ -5,8 +5,6 @@ extern crate java_random_lcg;
 use java_random_lcg::*;
 
 pub mod math;
-pub mod chunk_random;
-pub mod java_random;
 pub mod population_reverser;
 
 #[cfg(test)]

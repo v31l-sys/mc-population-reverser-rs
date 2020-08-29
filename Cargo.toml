@@ -7,9 +7,4 @@ edition = "2018"
 [dependencies]
 lazy_static = "1.4.0"
 java_random_lcg = { git = "https://github.com/v31l-sys/java-random-lcg-rs" }
-
-[profile.dev]
-opt-level = 1
-
-[profile.release]
-opt-level = 3
+random = { git = "https://github.com/v31l-sys/mc-random-rs" }

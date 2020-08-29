@@ -5,7 +5,7 @@
 pub mod population_seed_utils {
     use crate::lcg::*;
     use std::collections::HashSet;
-    use crate::chunk_random::ChunkRandom;
+    use random::chunk_random::*;
     use crate::math::*;
 
     fn lift(value: i64, bit: i32, target: i64, bits: i32, offset: i32, chunk_random: &mut ChunkRandom,
